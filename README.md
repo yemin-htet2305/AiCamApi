@@ -14,8 +14,6 @@ For the big picture, see the [root README](../README.md). For the full endpoint 
 
 The Pi writes daily entry totals into MongoDB. The dashboard needs to ask questions like "what was the peak day?" or "what's the 30-day trend?" This API is the thing that translates those questions into Mongo queries and returns JSON.
 
-It's a single file — `labEntriesApi.py` — about 170 lines. No blueprints, no ORM, no service layer. That's intentional. For seven endpoints over one collection, anything more is overkill.
-
 ### Endpoints at a glance
 
 | Method | Path | Purpose |
