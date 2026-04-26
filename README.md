@@ -70,7 +70,7 @@ pip install flask flask-cors pymongo
 
 ### 2. MongoDB
 
-MongoDB runs in Docker on the DB server (`192.168.1.104`). This avoids the system-package install and makes it easy to upgrade or reset the DB without touching the host OS.
+MongoDB runs in Docker on the DB server. This avoids the system-package install and makes it easy to upgrade or reset the DB without touching the host OS.
 
 If MongoDB isn't already running, start it like this:
 
