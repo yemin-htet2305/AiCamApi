@@ -38,10 +38,10 @@ Open `labEntriesApi.py` and find:
 client = MongoClient("mongodb://localhost:27017/")
 ```
 
-In our lab, **MongoDB runs on `192.168.1.104`**, not on the API server. That line needs to become:
+In our lab, **MongoDB runs on another raspberrypi server**, not on the API server. That line needs to become:
 
 ```python
-client = MongoClient("mongodb://192.168.1.104:27017/")
+client = MongoClient("mongodb://<another_raspberrypi_server.address>:27017/")
 ```
 
 The committed code ships with `localhost` as a default for local testing. **You have to change it after cloning** or the API will start up fine and then throw `ServerSelectionTimeoutError` on the first request.
