@@ -4,7 +4,7 @@ The middle layer of AiCam. A Flask app that reads the lab's daily entry counts f
 
 **Author:** Ye Min Htet
 **Stack:** Python 3, Flask, Flask-CORS, pymongo
-**Runs on:** `192.168.1.126:5001`, managed by pm2
+**Runs on:** `<raspberrypi.address>:5001`, managed by pm2
 
 For the big picture, see the [root README](../README.md). For the full endpoint spec, see [`API_REFERENCE.md`](../API_REFERENCE.md).
 
