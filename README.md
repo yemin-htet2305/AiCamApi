@@ -181,7 +181,7 @@ Then re-run the summary call and you should get actual numbers back.
 ## Running under pm2 (production)
 
 ```bash
-pm2 start labEntriesApi.py --name aicam-api --interpreter python3
+pm2 start labEntriesApi.py --name AiCamApi --interpreter python3
 pm2 save
 pm2 startup      # follow the command it prints so pm2 comes back on reboot
 ```
